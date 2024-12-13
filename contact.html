@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title></title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script defer src="js/fontawesome-all.min.js"></script>
+	</head>
+  <body>
+    <!--Меню-->
+    <nav class="navbar navbar-expand-lg bg-light border-bottom fixed-top">
+			<div class="container-fluid">
+			  <a class="navbar-brand" href="#">Small Business</a>
+			  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			  </button>
+			  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+				  <li class="nav-item">
+					<a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="/services.html">Services</a>
+				  </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/teem.html">Team</a>
+              </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="/contact.html">Contact</a>
+				</li>
+				</ul>
+			  </div>
+			  <div class="dropdown">
+				<button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+				  Change language
+				</button>
+				<ul class="dropdown-menu">
+				  <li><a class="dropdown-item" href="#">English</a></li>
+				  <li><a class="dropdown-item" href="#">Russian</a></li>
+				  <li><a class="dropdown-item" href="#">Korean</a></li>
+				</ul>
+			  </div>
+			</div>
+		</nav>
+
+    <!--первый блок-->
+    <div class="py-3 py-sm-5">
+      <div class="container-fluid">
+        <div class="row align-items-center">
+          <div class="container text-center">
+            <h1>Contact</h1>
+            <div class="row">
+              <div class="col">
+                <div class="text-start">
+                  <div class="d-flex align-items-center mb-2">
+                    <h3>Address:</h3>
+                  </div>
+                  <div>
+                    <h6>Equestrian club</h6>
+                  </div>
+                  <div>
+                    <small>sweet name</small>
+                  </div>
+                  <div>
+                    <small>ZIP</small>
+                  </div>
+                  <div>
+                    <i class="fas fa-phone"></i>
+                    <small>+739293932</small>
+                  </div>
+                  <div>
+                    <i class="fas fa-envelope-square"></i>
+                    <small>info@gmail.com</small>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="text-start">
+                  <div class="d-flex align-items-center mb-2">
+                    <h3>Opening hours:</h3>
+                  </div>
+                  <div>
+                    <small>Monday-Thustday:</small>
+                  </div>
+                  <div>
+                    <small>Friday-Saturday:</small>
+                  </div>
+                  <small>Sunday:</small>
+                </div>
+              </div>
+              <div class="col">
+                <div class="d-flex align-items-center mb-2">
+                  <h3 class="text-white">Opening hours:</h3>
+                </div>
+                <div>
+                  <small>10 am - 6 pm</small>
+                </div>
+                <div>
+                  <small>10 am - 10 pm</small>
+                </div>
+                <small>10 am - 8 pm</small>
+              </div>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+    
+    <!--форма и фото-->
+    <div class="container-fluid">
+			<div class="row align-items-center">
+				<div class="col-12 col-lg-6 mb-3 mb-lg-0">
+          <h3>Send as a message</h3>
+          <label>Name</label>
+          <div class="input-group has-validation">
+            <span class="input-group-text" id="inputGroupPrepend"><i class="fas fa-user"></i></span>
+            <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+          </div>
+          <label>Email</label>
+          <div class="input-group has-validation">
+            <span class="input-group-text" id="inputGroupPrepend"><i class="fas fa-envelope"></i></span>
+            <input type="text" class="form-control" placeholder="example@email.com" aria-label="Username" aria-describedby="basic-addon1">
+          </div>
+          <label>Telephone</label>
+          <div class="input-group has-validation">
+            <span class="input-group-text" id="inputGroupPrepend"><i class="fas fa-phone"></i></span>
+            <input type="text" class="form-control" placeholder="0123456789" aria-label="Username" aria-describedby="basic-addon1">
+          </div>
+          <label>Department</label>
+          <div class="input-group has-validation">
+            <span class="input-group-text" id="inputGroupPrepend"><i class="fas fa-home"></i></span>
+            <select class="form-select" id="department">
+              <option value="">- select here -</option>
+            </select>
+          </div>
+          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+          <label>Message:</label>
+          <div class="input-group has-validation">
+          <span class="input-group-text" id="inputGroupPrepend"><i class="fas fa-pen"></i></span>
+          <textarea class="form-control" placeholder="Write your message here...." name="message" id="" cols="30" rows="10"></textarea>
+           </div>
+           <a class="btn btn-primary" href="#" role="button">Submit</a>
+           <button type="button" class="btn btn-secondary">Reset</button>
+
+        </div>
+        
+				<div class="col-12 col-lg-6">
+          <h3>Where to find us:</h3>
+          <img src="/img/800x600.png" class="img-fluid" alt="...">
+				</div>
+			</div>
+		</div>
+    <!--футер-->
+	<footer class="bg-light py-4">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-md-6 col-xl-3">
+					<div class="d-flex align-items-center mb-2">
+						<h5>Quick links</h5>
+					</div>
+					<div>
+						<a href="">Home</a>
+					</div>
+					<div>
+						<a href="">Home</a>
+					</div>
+					<div>
+						<a href="">Home</a>
+					</div>
+					<div>
+						<a href="">Home</a>
+					</div>
+					<div>
+						<a href="">Home</a>
+					</div>
+				</div>
+				<div class="col-12 col-md-6 col-xl-3">
+					<div class="d-flex align-items-center mb-2">
+						<h5>Information</h5>
+					</div>
+					<div>
+            <a href="">Home</a>
+					</div>
+					<div>
+						<a href="">Home</a>
+					</div>
+					<div>
+						<a href="">Home</a>
+					</div>
+					<div>
+						<a href="">Home</a>
+					</div>
+					<div>
+						<a href="">Home</a>
+					</div>
+				</div>
+				<div class="col-12 col-md-6 col-xl-3">
+					<div class="d-flex align-items-center mb-2">
+						<h5>Follow us</h5>
+					</div>
+					<div>
+						<i class="fab fa-facebook"></i>
+						<a href="">Facebook</a>
+					</div>
+					<div>
+						<i class="fab fa-instagram"></i>
+						<a href="">instagram</a>
+					</div>
+					<div>
+						<i class="fab fa-twitter"></i>
+						<a href="">twitter</a>
+					</div>
+					<div>
+						<i class="fab fa-youtube"></i>
+						<a href="">youtube</a>
+					</div>
+					<div>
+						<i class="fab fa-youtube"></i>
+						<a href="">linkeln</a>
+					</div>
+				</div>
+				<div class="col-12 col-md-6 col-xl-3">
+					<div class="d-flex align-items-center mb-2">
+						<h5>Our location</h5>
+					</div>
+					<div>
+						<h5>Equestrian club</h4>
+					</div>
+					<div>
+						<small>sweet name</small>
+					</div>
+					<div>
+						<small>ZIP</small>
+					</div>
+					<div>
+						<i class="fas fa-phone"></i>
+						<a href="">+9129192333</a>
+					</div>
+					<div>
+						<i class="fas fa-envelope-square"></i>
+						<a href="">info@gmail.com</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+  
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
